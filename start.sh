@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 source databaseFunctions.sh
 start
+
 laodDatabases
 while true ; do
   PS3="Choose your action :?  "
